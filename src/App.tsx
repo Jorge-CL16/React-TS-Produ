@@ -22,7 +22,7 @@ function App() {
           </li>)
         }
         </ul>
-      </div> : 'cargando... verificar deploy'}
+      </div> : 'Arregla tu pinche url we'}
     </>
   )
 }
