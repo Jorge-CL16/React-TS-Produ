@@ -22,7 +22,7 @@ function App() {
           </li>)
         }
         </ul>
-      </div> : 'cargando...'}
+      </div> : 'cargando... verificar deploy'}
     </>
   )
 }
