@@ -22,7 +22,7 @@ function App() {
           </li>)
         }
         </ul>
-      </div> : 'Arregla tu pinche url we, te amo aranza'}
+      </div> : 'Arregla tu pinche url we, regresa aranza ya no puedo vivir sin ti Aranza'}
     </>
   )
 }
