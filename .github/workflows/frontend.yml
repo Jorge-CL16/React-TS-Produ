@@ -1,9 +1,7 @@
-name: CI - Frontend React
+name: CI/CD - Frontend React
 
 on:
   push:
-    branches: ["main"]
-  pull_request:
     branches: ["main"]
 
 jobs:
@@ -24,3 +22,7 @@ jobs:
 
     - name: Build project
       run: npm run build
+
+    - name: Deploy to Render
+      if: success()
+      run: curl -X POST ${{ secrets.RENDER_FRONTEND_DEPLOY_HOOK }}
